@@ -1,9 +1,0 @@
-{
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": false,
-        "**/.DS_Store": false,
-        "**/Thumbs.db": true
-    }
-}
