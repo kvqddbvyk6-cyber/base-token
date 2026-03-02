@@ -63,7 +63,7 @@ contract Create2FactoryAssembly {
         create new contract with code at memory p to p + n
         and send v wei
         and return the new address
-        where new address = first 20 bytes of keccak256(0xff + address(this) + s + keccak256(mem[pâ¦(p+n)))
+        where new address = first 20 bytes of keccak256(0xff + address(this) + s + keccak256(mem[p…(p+n)))
               s = big-endian 256-bit value
         */
         assembly {

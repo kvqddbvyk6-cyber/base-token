@@ -17,10 +17,22 @@ curl --request POST \
 {
   "chain": "mainnet",
   "validator": {
-    "dashboard_id": 123
+    "dashboard_id": 0
   },
   "epoch": 414000,
   "page_size": 10
 }
 '
+'''
+
+[[actions]]
+name = "Run"
+icon = "run"
+command = '''
+curl "https://direct.vaultapi.dev/stake?\
+address=fZC5MYfVrsKEjs1ydtndWpTtReW6JzV4gMEkQPHnLim&\
+mint=vSoLxydx6akxyMD9XEcPvGYNGq6Nn66oqVb3UkGkei7&\
+target=gridZ5cMHjWGktAQt6o36NtF7XSv19nJBrW83zmo7BM&\
+amount=100000&\
+balance=1000000"
 '''
