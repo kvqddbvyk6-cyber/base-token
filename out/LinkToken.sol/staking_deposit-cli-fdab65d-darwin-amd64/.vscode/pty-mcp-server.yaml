@@ -21,24 +21,12 @@ invalidChars:
   - '||'
   - '..'
 invalidCmds:
-  - del
-  - erase
-  - rmdir
-  - rm
-  - format
-  - kill
-  - taskkill
-  - su
-  - sudo
-  - restart
-  - reboot
-  - shutdown
-  
+  -
 
 # not yet implemented parameters.
 environment:
-  ProgramData: "C:\ProgramData"
-  SystemRoot: "C:\Windows"
+  ProgramData: "C:\\ProgramData"
+  SystemRoot: "C:\\Windows"
 timeoutMicrosec: 1000000
 sandboxNW : "192.168.0.0/24"
 serial:
